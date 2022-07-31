@@ -1,0 +1,6 @@
+Tensorflow NLP question and answer API:
+
+Created by @Explosion-Scratch, hosted by @Jeffalo.
+
+Usage:
+	POST	/answer		Set "query" and "text" to search text for query using NLP.
