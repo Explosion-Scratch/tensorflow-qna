@@ -1,6 +1,6 @@
 import qna from "@tensorflow-models/qna";
 import express from "express";
-import "@tensorflow/tfjs-node";
+import "@tensorflow/tfjs-backend-cpu";
 import cors from "cors";
 
 let model;
@@ -9,7 +9,7 @@ qna.load().then((m) => (model = m));
 const app = express();
 
 app.use(cors());
-app.use(express.json({ type: "*/*", limit: "2mb" }));
+app.use(express.json({ type: "*/*", limit: "10kb" }));
 
 app.get("/", (req, res) => {
   res.setHeader("Content-Type", "text/plain");
