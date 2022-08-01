@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@tensorflow-models/qna': ^1.0.1
+  '@tensorflow/tfjs-backend-cpu': ^3.19.0
   '@tensorflow/tfjs-converter': ^3.19.0
   '@tensorflow/tfjs-core': ^3.19.0
   '@tensorflow/tfjs-node': ^3.19.0
@@ -14,6 +15,7 @@ specifiers:
 
 dependencies:
   '@tensorflow-models/qna': 1.0.1_64clqv444ndwypqxo7tn4b7aum
+  '@tensorflow/tfjs-backend-cpu': 3.19.0_hek32lflchivueqv5i4vgonghu
   '@tensorflow/tfjs-converter': 3.19.0_hek32lflchivueqv5i4vgonghu
   '@tensorflow/tfjs-core': 3.19.0
   '@tensorflow/tfjs-node': 3.19.0_seedrandom@3.0.5

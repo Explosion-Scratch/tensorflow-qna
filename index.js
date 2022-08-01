@@ -1,6 +1,6 @@
 import qna from "@tensorflow-models/qna";
 import express from "express";
-import "@tensorflow/tfjs-tf";
+import "@tensorflow/tfjs-backend-cpu";
 import cors from "cors";
 import "dotenv/config";
 
