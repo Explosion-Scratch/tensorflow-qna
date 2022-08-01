@@ -33,12 +33,13 @@
   },
   "dependencies": {
     "@tensorflow-models/qna": "^1.0.1",
-    "@tensorflow/tfjs-backend-cpu": "^3.19.0",
     "@tensorflow/tfjs-converter": "^3.19.0",
     "@tensorflow/tfjs-core": "^3.19.0",
+    "@tensorflow/tfjs-node": "^3.19.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "seedrandom": "^3.0.5"
   },
   "peerDependencies": {
     "seedrandom": "^3.0.5"
