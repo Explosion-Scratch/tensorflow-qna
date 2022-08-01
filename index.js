@@ -4,7 +4,6 @@ import "@tensorflow/tfjs-backend-cpu";
 import cors from "cors";
 import "dotenv/config";
 
-//pls deploy
 let model;
 qna.load().then((m) => (model = m));
 
